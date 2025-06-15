@@ -17,7 +17,7 @@ public class CalculatorTests {
         page = new CalculatorModalPage();
         page.openPage();
         page.calculatorApp.shouldBe(visible);
-    };
+    }
 
     @Test(description = "Amount and period are prefilled with default values")
     public void defaultValuesAreSet() {

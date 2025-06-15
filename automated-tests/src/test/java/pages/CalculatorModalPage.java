@@ -35,7 +35,6 @@ public class CalculatorModalPage {
         loanPeriodInput.sendKeys(Keys.BACK_SPACE);  
         loanPeriodInput.setValue(period);
         loanPeriodInput.pressTab();
-
     }
 
 
